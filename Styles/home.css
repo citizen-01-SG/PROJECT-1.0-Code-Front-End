@@ -1,7 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace';
+  font-family: "Reddit Mono", monospace;
 }
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #F0EBE0 ;
+  position: relative;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
 
